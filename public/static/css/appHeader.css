@@ -1,0 +1,18 @@
+.header{
+    border-bottom: 2px solid var(--gris3);
+    padding: 1rem 0;
+}
+.divBoton{
+    display: flex;
+    align-items: center;
+}
+.pBoton{
+    margin-right: 2rem;
+}
+.divContenedor{ 
+   display: flex; 
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-content: space-between;
+ }

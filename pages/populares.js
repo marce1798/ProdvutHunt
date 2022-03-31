@@ -1,11 +1,11 @@
-import React  from 'react'
+import React from 'react'
 import Layout from '../components/layouts/Layout';
 import DetallesProducto from '../components/layouts/DetallesProducto';
 import useProductos from '../hooks/useProductos';
 
-const Home = () => {
+const Populares = () => {
 
-  const { productos } = useProductos('creado');
+  const { productos } = useProductos('votos');
 
   return (
     <div>
@@ -27,4 +27,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Populares

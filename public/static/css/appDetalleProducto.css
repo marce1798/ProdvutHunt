@@ -1,0 +1,25 @@
+.contenedorDetalles{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.detalleProductoH2{
+    margin: 2rem 0;
+}
+
+.detalleProductoLi{
+    border: 1px solid #e1e1e1;
+    padding: 2rem;
+}
+
+.detalleProductoSpan{
+    font-weight:bold;
+}
+
+.detalleProductoDiv1{
+    margin-top: 5rem;
+}
+
+.detalleProductoP1{
+    text-align: center;
+}
